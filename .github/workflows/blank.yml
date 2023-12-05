@@ -18,7 +18,7 @@ jobs:
         
 
       - name: Configure GCP credentials
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        uses: GoogleCloudPlatform/github-actions/setup-gcloud@v5
         with:
           service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
           project_id: vtb2017-186514  # Replace with your GCP project ID
